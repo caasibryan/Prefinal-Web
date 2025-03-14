@@ -1,5 +1,5 @@
 body{
-    background-image: url('bg1/bg1.jpg');
+    background-image: url('bg1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -10,10 +10,10 @@ body{
 
 ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     padding: 0;
     margin: 0;
-    background-color: brown;
+    background-color: indianred;
 }
 
 ul li {
@@ -48,9 +48,48 @@ ul li a {
     object-fit: cover;
 }
 p{
-    font-size: larger;
+    font-size: large;
 }
 .price strong {
     color: green;
 }
+h1, h2 {
+    font-style: italic;
+}
+.description {
+    line-height: 1.6; /* Adjust the number to control line spacing */
+}
+#product {
+    background-image: url('path_to_your_image.jpg');
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center; /* Centers the image within the section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
 
+#features {
+    background-image: url('bg1/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#reviews {
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#faq {
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact {
+    background-image: url('bg5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
