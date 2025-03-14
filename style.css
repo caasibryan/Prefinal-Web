@@ -50,3 +50,7 @@ ul li a {
 p{
     font-size: larger;
 }
+.price strong {
+    color: green;
+}
+
